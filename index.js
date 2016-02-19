@@ -10,3 +10,9 @@ var message = 'Hello' + visitor + ". Welcome to Treehouse." + "We are so glad th
 
 // Document.write prints message to the screen
 document.write(message);
+
+// Creating Random Numbers
+
+var dieRoll = Math.floor(Math.random() * 6 ) + 1;
+
+alert(dieRoll);
